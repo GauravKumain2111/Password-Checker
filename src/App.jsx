@@ -27,6 +27,7 @@ function App() {
 
   return (
     <div className="container">
+      <h1>Password Checker</h1>
       <form onSubmit={PasswordSetter} className="form">
         <input
           type="text"
